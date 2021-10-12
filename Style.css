@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: gray;
+}
+
+#clock {
+    height: 50px;
+    border: 1px solid rgb(73, 67, 67);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darkgreen;
+    border-radius: 20px;
+}
+
+#hour {
+    border: 1px solid rgb(8, 71, 11);
+    margin-right: 70%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#minute {
+    border: 1px solid rgb(8, 71, 11);
+    margin-right: 45%;
+    margin-left: 35%;
+    margin-bottom: auto;
+    margin-top: -31px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#secound {
+    border: 1px solid rgb(8, 71, 11);
+    margin-left: 500px;
+    margin-right: 150px;
+    margin-top: -32px;
+    margin-bottom: auto;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(216, 224, 208);
+    border-radius: 30px;
+}

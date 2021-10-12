@@ -1,0 +1,56 @@
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+    }
+    
+    body,
+    html {
+        height: 100%;
+        background-color: gray;
+        color: rgb(41, 38, 38);
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    h1 {
+        position: relative;
+        top: 25%;
+    }
+    
+    form {
+        background-color: rgb(37, 37, 37);
+        width: 250px;
+        border-radius: 10px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    input[name="Display"] {
+        background-color: rgb(219, 219, 219);
+        border-radius: 8px;
+        height: 40px;
+        text-align: right;
+        margin: 5px;
+        width: calc(100% - 30px);
+        border: none;
+        padding: 0 10px;
+    }
+    
+    input[type="button"] {
+        float: left;
+        width: calc(100% / 4 - 6.5px);
+        background: white;
+        border-radius: 8px;
+        height: 36px;
+        text-align: center;
+        margin: 0 0 5px 5px;
+        border: none;
+    }
+    
+    input[type="button"]:nth-last-of-type(1) {
+        background: yellow;
+        width: calc(50% - 7px);
+    }
